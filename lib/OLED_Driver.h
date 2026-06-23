@@ -29,18 +29,17 @@
 #
 ******************************************************************************/
 #ifndef __OLED_DRIVER_H
-#define __OLED_DRIVER_H		
+#define __OLED_DRIVER_H
 
 #include "DEV_Config.h"
 
 /********************************************************************************
-function:	
+function:
 		Define the full screen height length of the display
 ********************************************************************************/
 
-#define OLED_1in5_RGB_WIDTH  128//OLED width
-#define OLED_1in5_RGB_HEIGHT 128 //OLED height
-
+#define OLED_1in5_RGB_WIDTH 128	 // OLED width
+#define OLED_1in5_RGB_HEIGHT 128 // OLED height
 
 void OLED_1in5_rgb_Init(void);
 void OLED_1in5_rgb_Clear(void);
@@ -48,5 +47,4 @@ void OLED_1in5_rgb_Set_Point(UBYTE Xpoint, UBYTE Ypoint, UWORD Color);
 void OLED_1in5_rgb_Display(const UBYTE *Image);
 void OLED_1in5_rgb_Display_Part(const UBYTE *Image, UBYTE Xstart, UBYTE Ystart, UBYTE Xend, UBYTE Yend);
 
-#endif  
-	 
+#endif
