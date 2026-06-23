@@ -3,13 +3,6 @@
 #define Sensor1Pin A2
 #define Sensor2Pin A3
 
-// Pins for screen
-#define DIN 11
-#define CLK 13
-#define CS 5
-#define DC 6
-#define RST 7
-
 void setup()
 {
   // put your setup code here, to run once:
