@@ -1,4 +1,9 @@
 #include <Arduino.h>
+#include "OLED_Driver.h"
+#include "GUI_Paint.h"
+#include "DEV_Config.h"
+#include "Debug.h"
+#include "ImageData.h"
 
 #define Sensor1Pin A2
 #define Sensor2Pin A3
