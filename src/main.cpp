@@ -23,9 +23,7 @@ void setup()
   OLED_1in5_rgb_Clear();
 
   // 1.Create a new image size
-  UBYTE *BlackImage;
   Serial.print("Paint_NewImage\r\n");
-  Paint_NewImage(BlackImage, OLED_1in5_RGB_WIDTH, OLED_1in5_RGB_HEIGHT, 270, BLACK);
   Paint_SetScale(65);
 
   while (1)
