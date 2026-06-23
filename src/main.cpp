@@ -1,18 +1,23 @@
 #include <Arduino.h>
 
-// put function declarations here:
-int myFunction(int, int);
+#define Sensor1Pin A2
+#define Sensor2Pin A3
 
-void setup() {
+// Pins for screen
+#define DIN 11
+#define CLK 13
+#define CS 5
+#define DC 6
+#define RST 7
+
+void setup()
+{
   // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+  pinMode(Sensor1Pin, INPUT);
+  pinMode(Sensor2Pin, INPUT);
 }
 
-void loop() {
+void loop()
+{
   // put your main code here, to run repeatedly:
-}
-
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
 }
